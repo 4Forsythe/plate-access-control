@@ -1,0 +1,31 @@
+{
+  "name": "plate-access-control",
+  "version": "0.0.0",
+  "description": "Backend system of car license plate access control",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/main.js",
+    "dev": "ts-node ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "4Forsythe (t.me/forsyne)",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "body-parser-xml": "^2.0.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/body-parser-xml": "^2.0.5",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.19",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3"
+  }
+}
