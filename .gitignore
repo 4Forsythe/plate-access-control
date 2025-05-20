@@ -3,6 +3,7 @@
 
 # Production
 /dist
+/sqlite
 
 # Environments
 .env*
