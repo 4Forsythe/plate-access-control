@@ -1,0 +1,37 @@
+{
+  "name": "pac-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "start": "vite preview",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "date-fns": "^4.1.0",
+    "jsmpeg": "^1.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-imask": "^7.6.1",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.6.0",
+    "react-virtualized": "^9.22.6",
+    "react-window": "^1.8.11",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/react-virtualized": "^9.22.2",
+    "@types/react-window": "^1.8.8",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

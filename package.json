@@ -1,0 +1,24 @@
+{
+  "name": "plate-access-control",
+  "private": true,
+  "description": "System of car license plate access control",
+  "workspaces": [
+    "pac-express",
+    "pac-react"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace pac-react && npm run build --workspace pac-express",
+    "start": "concurrently \"npm run start --workspace pac-react\" \"npm run start --workspace pac-express\"",
+    "dev": "concurrently \"npm run dev --workspace pac-react\" \"npm run dev --workspace pac-express\"",
+    "preinstall": "npm run db:gen && npm run db:push",
+    "db:gen": "npm run db:gen --workspace pac-express",
+    "db:push": "npm run db:push --workspace pac-express"
+  },
+  "keywords": [],
+  "author": "4Forsythe (t.me/forsyne)",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

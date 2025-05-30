@@ -1,0 +1,32 @@
+<main class="dashboard-layout">
+  <section class="top-panel">
+    <!-- Левая панель — Камера -->
+    <div class="video-block">
+      <h2>Поток с камеры</h2>
+      <canvas class="camera-canvas"></canvas>
+      <button class="danger">Открыть шлагбаум</button>
+    </div>
+
+    <!-- Правая панель — Лог -->
+    <div class="log-block">
+      <h2>Журнал событий</h2>
+      <ul class="log-list">
+        <li>[12:03] A123BC77 — доступ разрешен</li>
+        <li>[12:05] B456CD78 — отказано</li>
+        <!-- ... -->
+      </ul>
+    </div>
+  </section>
+
+  <section class="bottom-panel">
+    <div class="plate-header">
+      <h2>Список номеров</h2>
+      <button>+ Добавить</button>
+    </div>
+    <ul class="plate-list">
+      <li class="plate-item">A123BC77</li>
+      <li class="plate-item selected">B456CD78</li>
+      <!-- ... -->
+    </ul>
+  </section>
+</main>
